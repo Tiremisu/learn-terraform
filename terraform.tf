@@ -3,13 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "myory"
-
-    workspaces {
-      name = "learn-terraform"
-    }
-  }
+#  cloud {
+#    organization = "myory"
+#
+#    workspaces {
+#      name = "learn-terraform"
+#    }
+#  }
 
   required_providers {
     aws = {
